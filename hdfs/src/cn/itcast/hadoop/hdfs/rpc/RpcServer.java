@@ -18,6 +18,7 @@ public class RpcServer implements Bizalbel {
 	}
 
 	public String sayhi(String name) {
+		System.out.println("µ÷ÓÃ");
 		return "hi" + name;
 	}
 }
